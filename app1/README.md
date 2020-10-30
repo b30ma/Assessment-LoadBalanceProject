@@ -1,6 +1,6 @@
 # Sample APP 1
 
 ## instructions to run
-* run npm install
-* run node server
-* App 1 will run on localhost:5001
+- docker build -t app1 .
+- docker run -p 5001:5000 -d app1
+- App1 should be running on localhost:5001
